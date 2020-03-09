@@ -10,7 +10,7 @@
 
 import UIKit
 
-class Abstract___VARIABLE_wireframeClassName___<T>: BaseWireframe<T> where T: Abstract___VARIABLE_viewClassName___ {}
+class Abstract___VARIABLE_wireframeClassName___: ___VARIABLE_wireframeSubclassName___ {}
 
 // MARK: - Interface
 

@@ -10,30 +10,21 @@
 
 import UIKit
 
-final class ___VARIABLE_viewClassName___: UIViewController {
+final class ___VARIABLE_viewClassName___: ___VARIABLE_viewSubclassName___ {
 
     // MARK: - Members
 
     // swiftlint:disable:next implicitly_unwrapped_optional
-    var presenter: ___VARIABLE_moduleName___.PresenterInterface!
+    var presenter: ___VARIABLE_moduleName___.PresenterInterface! {
+        didSet {
+            underlying___VARIABLE_submoduleName___Presenter = presenter
+        }
+    }
 
     // MARK: - Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
         presenter.viewDidLoad()
-    }
-}
-
-// MARK: - Interface
-
-extension ___VARIABLE_viewClassName___: ___VARIABLE_viewInterfaceName___ {}
-
-// MARK: - Helpers
-
-private extension ___VARIABLE_viewClassName___ {
-
-    private func foo() {
-        print("bar")
     }
 }

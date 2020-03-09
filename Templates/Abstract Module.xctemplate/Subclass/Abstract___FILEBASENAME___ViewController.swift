@@ -10,7 +10,7 @@
 
 import UIKit
 
-class Abstract___VARIABLE_viewClassName___: UIViewController {
+class Abstract___VARIABLE_viewClassName___: ___VARIABLE_viewSubclassName___ {
 
     // MARK: - Members
 
@@ -22,7 +22,11 @@ class Abstract___VARIABLE_viewClassName___: UIViewController {
     }
 
     // swiftlint:disable:next implicitly_unwrapped_optional
-    private(set) var _abstract___VARIABLE_presenterClassName___: Abstract___VARIABLE_moduleName___.PresenterInterface!
+    private(set) var _abstract___VARIABLE_presenterClassName___: Abstract___VARIABLE_moduleName___.PresenterInterface! {
+        didSet {
+            underlying___VARIABLE_submoduleName___Presenter = _abstract___VARIABLE_presenterClassName___
+        }
+    }
 
     // MARK: - Lifecycle
 
@@ -31,7 +35,3 @@ class Abstract___VARIABLE_viewClassName___: UIViewController {
         _abstract___VARIABLE_presenterClassName___.viewDidLoad()
     }
 }
-
-// MARK: - Interface
-
-extension Abstract___VARIABLE_viewClassName___: Abstract___VARIABLE_viewInterfaceName___ {}

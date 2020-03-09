@@ -28,7 +28,6 @@
                 <key>NotPersisted</key>
                 <true/>
             </dict>
-            
             <dict>
                 <key>Identifier</key>
                 <string>moduleName</string>
@@ -45,7 +44,6 @@
                 <key>NotPersisted</key>
                 <true/>
             </dict>
-            
             <dict>
                 <key>Identifier</key>
                 <string>viewClassName</string>
@@ -76,7 +74,6 @@
                 <key>NotPersisted</key>
                 <true/>
             </dict>
-            
             <dict>
                 <key>Identifier</key>
                 <string>presenterClassName</string>
@@ -123,7 +120,6 @@
                 <key>NotPersisted</key>
                 <true/>
             </dict>
-            
             <dict>
                 <key>Identifier</key>
                 <string>interactorClassName</string>
@@ -154,7 +150,6 @@
                 <key>NotPersisted</key>
                 <true/>
             </dict>
-            
             <dict>
                 <key>Identifier</key>
                 <string>wireframeClassName</string>
@@ -177,7 +172,7 @@
                 <key>Name</key>
                 <string>Wireframe:</string>
                 <key>Description</key>
-                <string>The Wrieframe class and inheritance if specified.</string>
+                <string>The Wireframe class and inheritance if specified.</string>
                 <key>Type</key>
                 <string>static</string>
                 <key>Default</key>
@@ -185,7 +180,6 @@
                 <key>NotPersisted</key>
                 <true/>
             </dict>
-            
             <dict>
                 <key>Identifier</key>
                 <string>interfacesFileName</string>
@@ -194,7 +188,6 @@
                 <key>NotPersisted</key>
                 <true/>
             </dict>
-            
             <dict>
                 <key>Identifier</key>
                 <string>viewSubclassName</string>
@@ -211,7 +204,6 @@
                 <key>NotPersisted</key>
                 <true/>
             </dict>
-            
             <dict>
                 <key>Identifier</key>
                 <string>presenterSubclassName</string>
@@ -244,7 +236,6 @@
                 <key>NotPersisted</key>
                 <true/>
             </dict>
-            
             <dict>
                 <key>Identifier</key>
                 <string>interactorSubclassName</string>
@@ -261,7 +252,6 @@
                 <key>NotPersisted</key>
                 <true/>
             </dict>
-            
             <dict>
                 <key>Identifier</key>
                 <string>wireframeSubclassName</string>
@@ -278,20 +268,6 @@
                 <key>NotPersisted</key>
                 <true/>
             </dict>
-            
-            <dict>
-                <key>Identifier</key>
-                <string>Abstract</string>
-                <key>Name</key>
-                <string>Abstract</string>
-                <key>Type</key>
-                <string>checkbox</string>
-                <key>Default</key>
-                <false/>
-                <key>NotPersisted</key>
-                <true/>
-            </dict>
-            
             <dict>
                 <key>Identifier</key>
                 <string>Subclass</string>

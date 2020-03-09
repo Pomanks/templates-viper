@@ -10,12 +10,13 @@
 
 import UIKit
 
-final class ___VARIABLE_wireframeClassName___: ___VARIABLE_wireframeSubclassName___<___VARIABLE_viewClassName___> {
+final class ___VARIABLE_wireframeClassName___: ___VARIABLE_wireframeSubclassName___ {
 
     // MARK: - Module setup
 
     init(completion: ((___VARIABLE_presenterConfigInterfaceName___) -> Void)? = nil) {
         let moduleViewController = ___VARIABLE_viewClassName___()
+
         super.init(viewController: moduleViewController)
 
         let interactor = ___VARIABLE_interactorClassName___()
@@ -29,7 +30,7 @@ final class ___VARIABLE_wireframeClassName___: ___VARIABLE_wireframeSubclassName
     }
 }
 
-// MARK: - Inteface
+// MARK: - Interface
 
 extension ___VARIABLE_wireframeClassName___: ___VARIABLE_wireframeInterfaceName___ {
 

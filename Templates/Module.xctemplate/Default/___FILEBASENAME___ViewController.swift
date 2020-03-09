@@ -10,16 +10,12 @@
 
 import UIKit
 
-final class ___VARIABLE_viewClassName___: ___VARIABLE_viewSubclassName___ {
+final class ___VARIABLE_viewClassName___: UIViewController {
 
     // MARK: - Members
 
     // swiftlint:disable:next implicitly_unwrapped_optional
-    var presenter: ___VARIABLE_moduleName___.PresenterInterface! {
-        didSet {
-            underlying___VARIABLE_submoduleName___Presenter = presenter
-        }
-    }
+    var presenter: ___VARIABLE_moduleName___.PresenterInterface!
 
     // MARK: - Lifecycle
 
@@ -28,7 +24,3 @@ final class ___VARIABLE_viewClassName___: ___VARIABLE_viewSubclassName___ {
         presenter.viewDidLoad()
     }
 }
-
-// MARK: - Interface
-
-extension ___VARIABLE_viewClassName___: ___VARIABLE_viewInterfaceName___ {}
